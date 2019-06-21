@@ -18,7 +18,7 @@ public class LoadDataInteractorImpl implements ILoadDataInteractor {
     private final Repository repositoryData;
 
 
-    // create constructor and use inject annotation (not sure)
+    // init constructor , to chto injectit` somewhere
     @Inject
     public LoadDataInteractorImpl(Repository repositoryData) {
         this.repositoryData = repositoryData;
